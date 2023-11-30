@@ -1,0 +1,272 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/imgs/IFCL\ landing.jpg.png);
+  position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 150px;
+}
+
+.links{
+  flex: 1;
+  text-align: right;
+   
+}
+.links ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  
+
+}
+.links ul li a{
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+
+}
+
+.contact{
+color: white;
+text-decoration: none;
+text-align: right;
+
+}
+
+.herotext{
+
+color: white;
+
+}
+
+.herotext .heading1{
+  width: 760px;
+  height: 196px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  left: 300px;
+  top: 100px;
+  
+  
+}
+
+.explorebutton {
+  left: 0px;
+  top: 0px;
+  width: 325px;
+  height: 80px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  
+}
+.explorebutton a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+}
+
+.story{
+  background: #053563;
+  height: 668px;
+  
+  
+}
+
+.ourstory{
+color: #FFF;
+font-size: 56px;
+font-weight: 400;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.text1{
+font-size: 32px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+color: #FFF;
+margin: 135px 135px 171px 64px;
+text-align: center;
+}
+
+.subsidiaries {
+  column-count: 2;
+  column-gap: 40px;
+  padding: 20px 10px;
+}
+
+
+.heading3{
+  color: #053563;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+margin: 20px;
+margin-top: 50px;
+  
+}
+
+
+.sub{
+  color: #000000;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.176%;
+margin-left: 20px;
+}
+
+
+
+.viewMore {
+  font-size: 20px;
+  color: #053563;
+  background: none;
+  border: 1px solid #053563;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+
+
+
+.companies{
+  position: relative;
+  top: 50px;
+
+}
+.companies ul li {
+  list-style-type: none;
+}
+
+.numero {
+  vertical-align: super;
+  font-size: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.span1 {
+  font-size: 32px;
+}
+
+.footer{
+  background: #053563;
+  height: 579px;
+  
+}
+
+.footertext{
+  height: 203px ;
+  width: 555px;
+  top: 2265px;
+  left: 40px;
+  color: white;
+  font-size: 32px;
+  padding-left: 40px ;
+  padding-top: 46px;
+  line-height: 68.16px;
+}
+
+.yeartext{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 239.02%; /* 47.804px */
+  padding-left: 40px ;
+  padding-top: 193px;
+}
+
+
+
+.textfield {
+  display: flex;
+  position: relative;
+  left: 1000px;
+  bottom: 400px;
+  color: #FFF;
+  
+  
+}
+
+  
+input[type=text] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 209px;
+}
+
+input[type=email] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 440.041px;
+}
+
+input[type=submit] {
+  font-size: 20px;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  margin-top: 16px ;
+  width: 247px ;
+  height: 59px;
+
+}
+
+label[for=name] {
+  font-size: 20px;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  margin-top: 16px ;
+  width: 247px ;
+  height: 59px;
+
+}
+
+
+
+
+
+
+
