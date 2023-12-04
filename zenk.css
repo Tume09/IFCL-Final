@@ -129,12 +129,12 @@
 
 
 
- .recentprojects{
+ .zenkservices{
   display: flex;
   justify-content: space-around;
   
 }
-.projectframe{
+.projects{
   width: 440px;
   height: 790px;
   background: #FFF;
@@ -157,7 +157,7 @@
 
  }
 
-.projectframe h4{
+.projects h4{
  color: #000;
  margin: 5px ;
  font-family: Poppins;
@@ -166,7 +166,7 @@
  font-weight: 700;
  line-height: normal;
 }
-.projectframe p{
+.projects p{
  color: #000;
  margin: 5px ;
  font-style: normal; 
