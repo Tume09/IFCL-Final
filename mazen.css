@@ -210,7 +210,51 @@ h3{
   
 }
 
+.letsworktogether{
+  /* text-align: center; */
+  column-count: 2;
+}
 
+
+.textfield{
+  /* display: flex;
+  justify-content: center; 
+  column-count: 2;
+  margin-left: 100px;
+  margin-right: 20px; */
+
+
+
+  
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 100px;
+  grid-auto-columns: 100px;
+
+
+
+
+
+  
+}
+
+
+
+
+.emailInput{
+  margin-bottom: 50px;
+}
+
+.submitBTM{
+  /* margin: ; */
+  /* width: 440px;
+  height: 78px; */
+  padding: 20px 100px;
+  background: #ECD674;
+  border-radius: 5px;
+  
+  
+}
 
 
 
