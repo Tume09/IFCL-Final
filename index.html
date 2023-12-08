@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>IFCL Holdings</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
@@ -17,16 +17,18 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#subsidiaries">Subsidiaries</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#footer">Contact us</a></li>
                 </ul>
                 
             </div>
         </nav>
+
         <div class="herotext">
             <h1 class="heading1">No Matter Where you are, we have you covered</h1>   
-       <button class="explorebutton">
-        <a href="">Explore</a>
-       </button>
+            <button class="explorebutton">
+                <a href="">Explore</a>
+            </button>
+        </div>
         
     </section>
 
@@ -44,47 +46,96 @@
     </section>
     
 
-    <section class="subsidiaries" id="#subsidiaries">
+    <section class="subsidiaries" id="subsidiaries">
         <h3 class="heading3">Subsidiaries</h3>
-        <p class="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="sub">IFCL Holdings stands as the formidable parent of our vibrant family of subsidiaries.</p>
 
       
         <button class="viewMore">View More</button>
 
         <div class="companies">
             <ul>
-                <li><span class="numero">01</span> <span class="span1">Lande International Company</span></li>
-                <li><span class="numero">02</span> <span class="span1">Mazen Royal Furnishers</span></li>
-                <li><span class="numero">03</span> <span class="span1">Zenk Enterprises Limited</span></li>
-                <li><span class="numero">04</span> <span class="span1">Iron Furnitures</span></li>
+                <li>
+                    <a href="lande.html">
+                        <span class="numero">01</span> <span class="span1">Lande International Company</span>
+                        <img src="imgs/icons8-link.svg" alt="linkToSite" class="linkToSite">
+                    </a>
+                </li>
+                <li>
+                    <a href="mazen.html">
+                        <span class="numero">02</span> <span class="span1">Mazen Royal Furnishers</span>
+                        <img src="imgs/icons8-link.svg" alt="linkToSite" class="linkToSite">
+                    </a>
+                </li>
+                <li>
+                    <a href="zenk.html">
+                        <span class="numero">03</span> <span class="span1">Zenk Enterprises Limited</span>
+                        <img src="imgs/icons8-link.svg" alt="linkToSite" class="linkToSite">
+                    </a>
+                </li>
+                <li>
+                    <a href="iron.html">
+                        <span class="numero">04</span> <span class="span1">Iron Furnitures</span>
+                        <img src="imgs/icons8-link.svg" alt="linkToSite" class="linkToSite">
+                    </a>
+                </li>
     </section>
 
-    <footer class="footer">
+    <!-- Footer -->
+    <footer class="footer" id="footer">
         <p class="footertext">
-            For its tailored, approachable, sincere, and remarkable service,
-IFCL has won widespread praise.
+            For its tailored, approachable, sincere, and remarkable service, IFCL has won widespread praise.
         </p>
 
-        <p class="yeartext">
-            @2023 by IFCLHOLDINGS
-        </p>
-
-        
+        <div class="secondaryLinks">
+            <ul>
+                <li><a href="#subsidiaries">Subsidiaries</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div><br>
+   
    <div class="textfield">
      <form action="">
-        <label for="fname">First name</label><br>
-        <input  type="text"><br>
+        <div class="fname">
+            <label for="fname">First name</label><br>
+            <input  type="text" ><br>
+        </div>
         
-        <label for="lname">Last name</label><br>
-        <input type="text"><br>
+        <div class="lname">
+            <label for="lname">Last name</label><br>
+            <input type="text"><br>
+        </div>
 
-        <label for="email">Email</label><br>
-        <input type="email"><br>
 
-        <input type="submit" value="Submit">
+        <div class="email">
+            <label for="email">Email</label><br>
+            <input type="email"><br>
+        </div>
+        
+        <input type="submit" value="Subscribe">
+        
      </form>
-       
-     </div>
+    </div>
+
+    <div class="contacts">
+        <div class="address">
+            <p><b>Address</b></p>
+            <p>P.O Box 3479-00200,</p>
+            <p>Nairobi, Kenya.</p>
+        </div>
+
+        <div class="contactDetails">
+            <p><b>Contact</b></p>
+            <!-- <p>Email: info@ifclholdings.com</p> -->
+            <p>Tel: 123-345-678</p>
+        </div>
+    </div>
+    
+    <p class="yeartext">
+        @2023 by IFCLHOLDINGS
+    </p>
+
     </footer>
 
 

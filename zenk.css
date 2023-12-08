@@ -1,236 +1,253 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins' ;
-   }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
 
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
 
-   nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-  }
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 28px;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+}
 
-  nav ul li{
-    display: inline;
-    list-style-type: none;
-    padding:28px;
-    position: relative;
-    float: left;
-    margin-right:40px;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
 
-  nav ul li a{
-    text-decoration: none;
-    color: black;
-   } 
+nav ul button {
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 212px;
+  height: 71.756px;
+  background-color: transparent;
+  border-radius: 10px;
+}
 
+.hero {
+  background-repeat: no-repeat;
+  background-image: url(imgs/zenk\ hero.png);
+  background-color: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 3) 0%,
+    rgba(0, 0, 0, 3) 100%
+  );
+  min-height: 150vh;
+  /* width: 100%; */
+  background-position: bottom;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
-   nav ul button {
-    
-    color: black;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    width: 212px;
-    height: 71.756px;
-    background-color: transparent;
-    border-radius: 10px;
-    
-    
-   } 
+.herotext {
+  height: 73px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
 
+.herotext h1 {
+  padding-top: 288px;
+  color: white;
+}
 
-   .hero{
-    
-    height: 750px;
-    background-repeat: fill;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(/imgs/zenk\ hero.png), lightgray 0px -1169.15px / 100% 317.224% no-repeat  ;
-    
-    
-    
-   }
+.herotext button {
+  width: 325px;
+  height: 66px;
+  top: 395px;
+  left: 554px;
+  border: 1px;
+  margin-top: 34px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 9px;
+  color: white;
+  font-size: 32px;
+}
 
-    .herotext {
-    
-    height: 73px;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: center;
-    
-   }
+.about h2 {
+  font-size: 56px;
+  text-align: center;
+  margin-top: 63px;
+}
 
-   .herotext h1{
-    padding-top: 288px;
-    color: white;
-   }
+.aboutcontent {
+  font-size: 32px;
+  height: 546px;
+  line-height: 245.071%;
+  padding-left: 150px;
+  margin-top: 20px;
+}
 
-   .herotext button{
-    width: 325px;
-    height: 66px;
-    top: 395px;
-    left: 554px;
-    border: 1px;
-    margin-top: 34px;
-    background: transparent;
-    border: 1px solid white ;
-    border-radius: 9px;
-    color: white;
-    font-size: 32px;
-    
-   }
+hr {
+  left: 40px;
+  border: 1px solid black;
+  margin: 40px;
+}
 
+.pic2 img {
+  width: 100%;
+}
 
-   .about h2{
-    font-size: 56px;
-    text-align: center;
-    margin-top: 63px;
-    
-  }
-
-  .aboutcontent{ 
-    font-size: 32px;
-    height: 546px;
-    line-height: 245.071%;
-    padding-left: 150px;
-    margin-top: 20px;
-  }
-
-
-  hr{
-    
-    left: 40px;
-    border: 1px solid black;
-    margin: 40px;
-    
-  }
-
- .pic2{
-  
-  width: 1360px;
-  object-fit: cover;
-  
-  
- }
-
- h3{
+h3 {
   text-align: center;
   font-size: 56px;
-  padding: 68px;
- }
+  margin: 40px 20px 20px 20px;
+}
 
-
-
- .zenkservices{
+.zenkservices {
   display: flex;
   justify-content: space-around;
-  
+  margin-bottom: 40px;
 }
-.projects{
+.projects {
   width: 440px;
   height: 790px;
-  background: #FFF;
-  box-shadow: -3px 3px 8px 0px rgba(0, 0, 0, 0.10), -11px 11px 15px 0px rgba(0, 0, 0, 0.09), -25px 25px 21px 0px rgba(0, 0, 0, 0.05), -44px 44px 25px 0px rgba(0, 0, 0, 0.01), -68px 68px 27px 0px rgba(0, 0, 0, 0.00);
-  
-  
-  
-  
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: -3px 3px 8px 0px rgba(0, 0, 0, 0.1),
+    -11px 11px 15px 0px rgba(0, 0, 0, 0.09),
+    -25px 25px 21px 0px rgba(0, 0, 0, 0.05),
+    -44px 44px 25px 0px rgba(0, 0, 0, 0.01),
+    -68px 68px 27px 0px rgba(0, 0, 0, 0);
 }
-.img{
+.img {
   width: 414px;
   height: 372px;
-  border-radius: 12px;  
-  box-shadow: -6px 5px 18px 0px rgba(0, 0, 0, 0.10), -25px 20px 32px 0px rgba(0, 0, 0, 0.09), -57px 46px 44px 0px rgba(0, 0, 0, 0.05), -101px 81px 52px 0px rgba(0, 0, 0, 0.01), -157px 127px 57px 0px rgba(0, 0, 0, 0.00);
- margin-left: 13px;
- margin-top: 59px;
- margin-bottom: 74px;
- object-fit: cover;
- 
-
- }
-
-.projects h4{
- color: #000;
- margin: 5px ;
- font-family: Poppins;
- font-size: 24px;
- font-style: normal;
- font-weight: 700;
- line-height: normal;
-}
-.projects p{
- color: #000;
- margin: 5px ;
- font-style: normal; 
- line-height: normal;
- font-size: 20px;
- 
-
+  border-radius: 12px;
+  box-shadow: -6px 5px 18px 0px rgba(0, 0, 0, 0.1),
+    -25px 20px 32px 0px rgba(0, 0, 0, 0.09),
+    -57px 46px 44px 0px rgba(0, 0, 0, 0.05),
+    -101px 81px 52px 0px rgba(0, 0, 0, 0.01),
+    -157px 127px 57px 0px rgba(0, 0, 0, 0);
+  margin-left: 13px;
+  margin-top: 59px;
+  margin-bottom: 74px;
+  object-fit: cover;
 }
 
+.projects h4 {
+  color: #000;
+  margin: 5px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.projects p {
+  color: #000;
+  margin: 5px;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+}
 
-.book{
+.book {
   background: #493591;
   height: 447px;
   padding-top: 76px;
 }
 
-h5{
+.book form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+input[type="email"] {
+  border-radius: 5px 0px 0px 5px;
+  padding: 15px;
+  width: 300px;
+  background: none;
+  border: none;
+  border: 1px solid #fff;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 180px;
+  height: 71.756px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+h5 {
   text-align: center;
   font-size: 56px;
   color: white;
   padding-top: 46px;
 }
 
-
-.BK{
-  
-  color: #FFF;
+.BK {
+  color: #fff;
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 168.8%; /* 33.76px */
+  line-height: 168.8%;
   letter-spacing: -0.22px;
-  
-  
-  
 }
 
-footer{
-  background: #DDC81C;
+footer {
+  background: #ddc81c;
   height: 460px;
 }
 
-h6{
+h6 {
   text-align: center;
-  font-size: 56px; 
+  font-size: 56px;
   padding-top: 46px;
 }
 
-
-.footertext{
+.footertext {
   text-align: center;
   color: #000;
   font-size: 20px;
-  font-style: normal; 
+  font-style: normal;
   line-height: 296.25%;
-  
 }
-.footertext2{
+.footertext2 {
   text-align: center;
   color: #000;
   font-size: 20px;
-  font-style: normal; 
+  font-style: normal;
+  font-weight: 600;
   padding-top: 100px;
-  
 }
